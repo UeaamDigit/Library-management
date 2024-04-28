@@ -2,19 +2,15 @@ import React, { useState } from "react";
 import "./clientCss.css";
 
 function ClientForm() {
-  // State to manage form data
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
     email: "",
   });
 
-  // Function to handle form submission
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Add logic to handle form submission (e.g., send data to backend)
     console.log("Form submitted with data:", formData);
-    // Reset form fields after submission
     setFormData({
       firstName: "",
       lastName: "",
@@ -22,7 +18,6 @@ function ClientForm() {
     });
   };
 
-  // Function to handle input changes
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData({

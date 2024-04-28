@@ -4,7 +4,6 @@ import "../assets/css/style.css";
 import "../assets/js/script.js";
 
 const NotificationComponent = () => {
-  // Définir l'état initial des notifications
   const [notifications, setNotifications] = useState([]);
 
   useEffect(() => {

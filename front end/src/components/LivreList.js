@@ -96,12 +96,12 @@ function LivreList() {
                       <div className="card-content">
                         <h3 className="h3">
                           <a href="#" class="card-title">
-                         livre.name 
+                            livre.name
                           </a>
                         </h3>
 
                         <data className="card-price" value="80">
-                           livre.price 
+                          livre.price
                         </data>
 
                         <div className="rating-wrapper">
